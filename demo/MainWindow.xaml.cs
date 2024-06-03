@@ -1,28 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
-namespace demo
+namespace AutoService
 {
-    /// <summary>
-    /// Логика взаимодействия для MainWindow.xaml
-    /// </summary>
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
+            // Здесь можно добавить код для инициализации окна
+        }
+
+        private void AddRequest_Click(object sender, RoutedEventArgs e)
+        {
+            // Обработчик события для кнопки "Добавить заявку"
+            // В этом методе можно добавить код для открытия окна добавления заявки или выполнения других действий
+        }
+
+        private void AddMechanic_Click(object sender, RoutedEventArgs e)
+        {
+            // Обработчик события для кнопки "Добавить механика"
+            // В этом методе можно добавить код для открытия окна добавления механика или выполнения других действий
         }
     }
 }
